@@ -45,7 +45,7 @@ Development sources for DTS Coherent Acoustics encoder
 %package -n %{pluginname}
 Summary:   DTS Coherent Acoustics encoder plugin for ALSA
 Group:     Sound
-Requires:  libalsa
+Requires:  alsa-lib
 
 %description -n %{pluginname}
 DTS Coherent Acoustics encoder plugin for ALSA
