@@ -16,13 +16,19 @@ URL:     http://aepatrakov.narod.ru/dcaenc/
 BuildRequires: kernel-headers >= 2.4.0
 BuildRequires: pkgconfig(alsa)
 
+
 %description
 DTS Coherent Acoustics encoder
 
-It may be useful if you want to create a DTS CD or a DTS soundtrack for a DVD
-from a 6-channel PCM wav file using linux. Another use case is related to
-real-time encoding of multichannel PCM audio output from arbitrary linux
-applications for transmission over SPDIF (see %{pluginname} package)
+It may be useful if you want to create a 
+DTS CD or a DTS 
+soundtrack for a DVD
+from a 6-channel PCM wav file using linux. 
+Another use case is related to
+real-time encoding of multichannel PCM 
+audio output from arbitrary linux
+applications for transmission over SPDIF 
+(see %{pluginname} package)
 
 
 %package -n %{libname}
