@@ -14,7 +14,7 @@ License: LGPLv2.1+
 Group:   Sound
 URL:     http://aepatrakov.narod.ru/dcaenc/
 BuildRequires: kernel-headers >= 2.4.0
-BuildRequires: libalsa-devel 
+BuildRequires: pkgconfig(alsa)
 
 %description
 DTS Coherent Acoustics encoder
