@@ -2,8 +2,8 @@
 %define pluginname %{mklibname alsa-plugins}-dca
 %define libname %mklibname %name %libmajor
 %define devellibname %mklibname -d %name
-%define debug_package	%{nil}
-%define distsuffix mrb
+#define debug_package	%{nil}
+#define distsuffix mrb
 
 Summary: DTS Coherent Acoustics encoder
 Name:    dcaenc
