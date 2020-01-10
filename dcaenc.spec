@@ -56,7 +56,7 @@ linux applications for transmission over SPDIF.
 
 %prep
 %setup -q -n %name-%version
-%apply_patches
+%autopatch -p1
 
 %build
 %configure2_5x
