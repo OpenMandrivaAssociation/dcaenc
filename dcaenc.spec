@@ -12,7 +12,7 @@ Release: 1
 Source0: http://aepatrakov.narod.ru/dcaenc/%{name}-%{version}.tar.gz
 License: LGPLv2.1+
 Group:   Sound
-URL:     http://aepatrakov.narod.ru/dcaenc/
+URL:     https://aepatrakov.narod.ru/dcaenc/
 BuildRequires: kernel-headers >= 2.4.0
 BuildRequires: pkgconfig(alsa)
 
