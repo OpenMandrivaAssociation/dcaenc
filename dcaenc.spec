@@ -13,6 +13,11 @@ Source0: http://aepatrakov.narod.ru/dcaenc/%{name}-%{version}.tar.gz
 License: LGPLv2.1+
 Group:   Sound
 URL:     https://aepatrakov.narod.ru/dcaenc/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: kernel-headers >= 2.4.0
 BuildRequires: pkgconfig(alsa)
 
